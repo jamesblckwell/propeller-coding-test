@@ -1,3 +1,4 @@
 import { writable } from 'svelte/store'
 
-export const count = writable(0);
+export const generation = writable([]);
+export const pokemon = writable([]);
